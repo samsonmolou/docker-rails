@@ -1,0 +1,37 @@
+{
+  "name": "docker-rails",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js app/javascript"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@rails/actioncable": "^6.0.1",
+    "@rails/ujs": "^6.0.1",
+    "@rails/webpacker": "^4.2.0",
+    "CSSBox": "TheLastProject/CSSBox",
+    "autocompleter": "^5.2.0",
+    "blueimp-file-upload": "^10.4.0",
+    "blueimp-load-image": "^2.24.0",
+    "blueimp-tmpl": "^3.13.0",
+    "bootstrap": "^4.4.0",
+    "jquery": "^3.4.1",
+    "parsleyjs": "^2.9.1",
+    "popper.js": "^1.16.0",
+    "stimulus": "^1.1.1",
+    "trix": "^1.2.1",
+    "turbolinks": "^5.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "node-sass": "^4.13.0",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
